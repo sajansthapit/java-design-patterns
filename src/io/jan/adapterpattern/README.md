@@ -11,3 +11,4 @@ that converts one to other.
 Suppose we have a **Bird** class with fly() and makeSound() methods. And also a **Toy Duck** class with squeak() method.
 Now suppose our client changes the requirement and they wants the toyDuck to makeSound.
 Simple solution  is that we will just change the implementation class to the new adapter class and tell the client to pass the instance of the bird (which wants to squeak()) to that class.
+n aims to 
